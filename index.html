@@ -3,28 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>Classic Chocolate Chip Cookies - Recipe</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- Main recipe article -->
-    <article>
+    <article id="recipe-article">
         <!-- Recipe Header -->
-        <h1>Classic Chocolate Chip Cookies</h1>
-        
-        <p>These <em>timeless chocolate chip cookies</em> are soft, chewy, and loaded with chocolate. Perfect for any occasion, they're sure to be a crowd-pleaser with family and friends.</p>
+        <header id="recipe-header">
+            <h1>Classic Chocolate Chip Cookies</h1>
+            
+            <p class="recipe-intro">These <em>timeless chocolate chip cookies</em> are soft, chewy, and loaded with chocolate. Perfect for any occasion, they're sure to be a crowd-pleaser with family and friends.</p>
+        </header>
         
         <!-- Recipe Details Section -->
-        <section>
+        <section class="recipe-details">
             <p><strong>Prep Time:</strong> 15 mins | <strong>Cook Time:</strong> 12 mins | <strong>Servings:</strong> 24 cookies | <strong>Difficulty:</strong> Easy</p>
         </section>
         
         <!-- Recipe Image -->
-        <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=500&h=400&fit=crop" 
-             alt="Freshly baked chocolate chip cookies on a cooling rack" 
-             width="500" 
-             height="400">
+        <figure class="recipe-image">
+            <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=500&h=400&fit=crop" 
+                 alt="Freshly baked chocolate chip cookies on a cooling rack" 
+                 width="500" 
+                 height="400">
+        </figure>
         
         <!-- Ingredients Section -->
-        <section>
+        <section class="section-ingredients">
             <h2>Ingredients</h2>
             <ul>
                 <li><strong>2 1/4 cups</strong> all-purpose flour</li>
@@ -41,7 +46,7 @@
         </section>
         
         <!-- Instructions Section -->
-        <section>
+        <section class="section-instructions">
             <h2>Instructions</h2>
             <ol>
                 <li>
@@ -75,7 +80,7 @@
         </section>
         
         <!-- Tips Section -->
-        <section>
+        <section class="section-tips">
             <h2>Tips & Notes</h2>
             <ul>
                 <li>For chewier cookies, slightly underbake them—they'll continue to cook as they cool.</li>
@@ -87,7 +92,7 @@
         </section>
         
         <!-- Nutrition Facts Section -->
-        <section>
+        <section class="section-nutrition">
             <h2>Nutrition Facts</h2>
             <p><strong>Per cookie (approximate values):</strong></p>
             <ul>
@@ -101,7 +106,9 @@
         </section>
         
         <!-- Source Link -->
-        <p>Recipe inspired by classic baking traditions | <a href="https://www.nestle.com" target="_blank">Visit Nestlé Recipe Archives</a></p>
+        <footer class="recipe-footer">
+            <p>Recipe inspired by classic baking traditions | <a href="https://www.nestle.com" target="_blank" class="source-link">Visit Nestlé Recipe Archives</a></p>
+        </footer>
     </article>
 </body>
 </html>
